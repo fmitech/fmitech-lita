@@ -28,6 +28,8 @@ GEM
       lita (>= 2.3)
     lita-catgif (0.0.2)
       lita (>= 2.6)
+    lita-memegen (1.0.4)
+      lita (>= 2.0)
     lita-pugbomb (1.0.2)
       lita (>= 2.0)
     lita-slack (1.1.0)
@@ -59,5 +61,6 @@ DEPENDENCIES
   lita
   lita-catfacts
   lita-catgif
+  lita-memegen
   lita-pugbomb
   lita-slack
