@@ -41,4 +41,9 @@ Lita.configure do |config|
   config.redis[:url] = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
 
+  # configure memegen gem
+  config.handlers.memegen.command_only = true
+  config.handlers.memegen.username = ENV['MEMEGEN_USERNAME']
+  config.handlers.memegen.password = ENV['MEMEGEN_PASSWORD']
+
 end
