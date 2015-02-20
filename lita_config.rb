@@ -1,6 +1,8 @@
 Lita.configure do |config|
 
   # name and mention_name are set in the lita integration config @ fmitech.slack.com/services
+  # name is configured here anyway for the purpose of displaying in commands like "roy help"
+  config.robot.name = "roy"
   config.robot.alias = "~"
 
   # The locale code for the language to use.
