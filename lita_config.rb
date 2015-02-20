@@ -33,7 +33,11 @@ Lita.configure do |config|
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
 
+  # configure redistogo on heroku
   config.redis[:url] = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
+
+  # configure lita-slack admins
+  config.robot.admins = ["U03N02TG7"]
 
 end
