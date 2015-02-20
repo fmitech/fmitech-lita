@@ -7,3 +7,4 @@ gem "lita-slack"
 # plugins
 gem "lita-catfacts"
 gem "lita-catgif"
+gem "lita-pugbomb"

@@ -28,6 +28,8 @@ GEM
       lita (>= 2.3)
     lita-catgif (0.0.2)
       lita (>= 2.6)
+    lita-pugbomb (1.0.2)
+      lita (>= 2.0)
     lita-slack (1.1.0)
       eventmachine
       faraday
@@ -57,4 +59,5 @@ DEPENDENCIES
   lita
   lita-catfacts
   lita-catgif
+  lita-pugbomb
   lita-slack
