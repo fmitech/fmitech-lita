@@ -1,7 +1,7 @@
 Lita.configure do |config|
 
-  # The name your robot will use.
-  config.robot.name = "Gort"
+  # name and mention_name are set in the lita integration config @ fmitech.slack.com/services
+  config.robot.alias = "~"
 
   # The locale code for the language to use.
   # config.robot.locale = :en
