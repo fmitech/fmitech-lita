@@ -14,7 +14,9 @@ Lita.configure do |config|
   # An array of user IDs that are considered administrators. These users
   # the ability to add and remove other users from authorization groups.
   # What is considered a user ID will change depending on which adapter you use.
-  # config.robot.admins = ["1", "2"]
+  config.robot.admins = [
+                          "U03N02TG7" # chloe reimer
+                        ]
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
@@ -36,8 +38,5 @@ Lita.configure do |config|
   # configure redistogo on heroku
   config.redis[:url] = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
-
-  # configure lita-slack admins
-  config.robot.admins = ["U03N02TG7"]
 
 end
