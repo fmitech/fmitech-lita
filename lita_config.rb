@@ -46,7 +46,4 @@ Lita.configure do |config|
   config.handlers.memegen.username = ENV['MEMEGEN_USERNAME']
   config.handlers.memegen.password = ENV['MEMEGEN_PASSWORD']
 
-  # configure responder gem
-  config.handlers.responder.cleverbot = true
-
 end
