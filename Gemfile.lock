@@ -1,8 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    clever-api (0.0.1)
-      rest-client
     eventmachine (1.0.7)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -30,9 +28,6 @@ GEM
       lita (>= 2.3)
     lita-catgif (0.0.2)
       lita (>= 2.6)
-    lita-clever (0.0.1)
-      clever-api
-      lita (>= 2.0)
     lita-memegen (1.0.4)
       lita (>= 2.0)
     lita-pugbomb (1.0.2)
@@ -43,10 +38,8 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.0.4)
       multi_json
-    mime-types (2.4.3)
     multi_json (1.10.1)
     multipart-post (2.0.0)
-    netrc (0.10.3)
     puma (2.11.1)
       rack (>= 1.1, < 2.0)
     rack (1.6.0)
@@ -54,9 +47,6 @@ GEM
     redis (3.2.1)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    rest-client (1.7.3)
-      mime-types (>= 1.16, < 3.0)
-      netrc (~> 0.7)
     thor (0.19.1)
     url_mount (0.2.1)
       rack
@@ -71,7 +61,6 @@ DEPENDENCIES
   lita
   lita-catfacts
   lita-catgif
-  lita-clever
   lita-memegen
   lita-pugbomb
   lita-slack
