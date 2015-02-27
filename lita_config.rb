@@ -46,6 +46,6 @@ Lita.configure do |config|
   config.handlers.memegen.username = ENV['MEMEGEN_USERNAME']
   config.handlers.memegen.password = ENV['MEMEGEN_PASSWORD']
 
-  config.handlers.keepalive.url = "https://fmitech-lita.herokuapp.com/"
+  config.handlers.keepalive.url = "https://fmitech-lita.herokuapp.com"
 
 end
